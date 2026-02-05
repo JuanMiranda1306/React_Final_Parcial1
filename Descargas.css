@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.titulo {
+  color: #448aff;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.instruccion {
+  color: #b0b0b0;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  display: block;
+  padding: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-align: center;
+  transition:
+    background 0.3s ease,
+    transform 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.01);
+  filter: brightness(1.1);
+}
+
+.btn-azul {
+  background-color: #1976d2;
+}
+
+.btn-verde {
+  background-color: #1b7e4c;
+}
+
+.btn-gris {
+  background-color: #262a2e;
+  border: 1px solid #3a3f44;
+}
+
+.btn-regresar {
+  background-color: #262a2e;
+  border: 1px solid #3a3f44;
+  margin-top: 5px;
+  color: #e0e0e0;
+}
