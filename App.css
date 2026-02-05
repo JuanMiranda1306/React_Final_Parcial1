@@ -1,0 +1,92 @@
+.pantalla-oscura {
+  background-color: #1a1e23;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.contenedor-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-perfil-simple {
+  width: 220px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px; /* Un toque redondeado queda bien */
+}
+
+.evaluacion-texto {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.alumno-texto {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.enlaces-inferiores a,
+.boton-enlace {
+  display: block;
+  color: #4da6ff;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 8px 0;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+.centro-descargas-directo {
+  width: 90%;
+  max-width: 500px;
+}
+
+.titulo-seccion {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #4da6ff;
+}
+
+.btn {
+  display: inline-block; /* Importante para los enlaces <a> */
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none; /* Quita subrayado */
+  box-sizing: border-box; /* Evita desbordamiento */
+  transition: 0.3s;
+}
+
+.btn-azul {
+  background-color: #007bff;
+}
+.btn-verde {
+  background-color: #28a745;
+}
+.btn-gris {
+  background-color: #343a40;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
